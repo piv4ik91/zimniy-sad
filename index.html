@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Зимние сады</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./slaider/itc-slider.css">
 </head>
 <body>
     <div class="nav-logo container">
@@ -66,8 +67,222 @@
                         <br>  обслуживанию.</p>
                 </li>
             </ul>
+            <button class="header-btn">Рассчитать стоимость</button>
         </div>
     </section>
-    
+    <section class="opros container">
+        <h2 class="opros__title"> Узнайте стоимость 
+        зимнего сада из алюминиевого профиля, ответив 
+        на вопросы за 2 минуты</h2>
+        <button class="opros-btn__title">+ зафиксируем цену на 14 дней</button>
+        <div class="opros-main">
+            <div class="opros-main__left">
+                <div class="itc-slider" data-slider="itc-slider">
+                    <ol class="itc-slider-indicators">
+                        <!-- data-slide-to="0" – для перехода к 1 слайду -->
+                        <li class="itc-slider-indicator itc-slider-indicator-active" data-slide-to="0"></li>
+                        <!-- data-slide-to="1" – для перехода к 2 слайду -->
+                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                        <!-- data-slide-to="2" – для перехода к 3 слайду -->
+                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                        <!-- data-slide-to="3" – для перехода к 4 слайду -->
+                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                        <!-- data-slide-to="4" – для перехода к 5 слайду -->
+                        <li class="itc-slider-indicator" data-slide-to="4"></li>
+                        <!-- data-slide-to="5" – для перехода к 6 слайду -->
+                        <li class="itc-slider-indicator" data-slide-to="5"></li>
+                        
+                    </ol>
+                    <div class="itc-slider-wrapper">
+                        <div class="itc-slider-items">
+                            <div class="itc-slider-item">
+                            <!-- Контент 1 слайда -->
+                                <p class="slaider-title slaider-title__1">Вы отвечаете на 1 вопрос из 6</p>
+                                <p class="slaider-text">Проектирование</p>
+                                <div class="content-slide">
+                                    <div class="content-slide1">
+                                        <img class="slide-1-img" src="./img/slaid1-1.png" alt="slaid1-1">
+                                        <p class="slaid-1__text">Есть готовый проект</p>
+                                        <div class="form-radio">
+                                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                            <label for="radio-1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="content-slide2">
+                                        <img class="slide-2-img" src="./img/slaid1-2.png" alt="slaid1-2">
+                                        <p class="slaid-2__text">Требуется создание <br>
+                                            индивидуального проекта</p>
+                                        <div class="form-radio">
+                                            <input id="radio-2" type="radio" name="radio" value="2">
+                                            <label for="radio-2"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="itc-slider-item">
+                            <!-- Контент 2 слайда -->
+                            <p class="slaider-title slaider-title__2">Вы отвечаете на 2 вопрос из 6</p>
+                            <p class="slaider-text">Тип остекления</p>
+                                <div class="content-slide">
+                                    <div class="content-slide1">
+                                        <img class="slide-1-img" src="./img/slaid2-1.png" alt="slaid2-1">
+                                        <p class="slaid-1__text">Теплое (для круглосуточного <br>
+                                            использования)</p>
+                                        <div class="form-radio">
+                                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                            <label for="radio-1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="content-slide2">
+                                        <img class="slide-2-img" src="./img/slaid2-2.png" alt="slaid2-2">
+                                        <p class="slaid-2__text">Холодное (используется летом, <br>
+                                            в остальное время года <br>
+                                            защищает от осадков)</p>
+                                        <div class="form-radio">
+                                            <input id="radio-2" type="radio" name="radio" value="2">
+                                            <label for="radio-2"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="itc-slider-item">
+                            <!-- Контент 3 слайда -->
+                                <p class="slaider-title slaider-title__3">Вы отвечаете на 3 вопрос из 6</p>
+                                <p class="slaider-text">Тип конструкции</p>
+                                    <div class="content-slide  content-slide__3">
+                                        <div class="content-slider">
+                                            <img class="slide-1-img" src="./img/slaid3-1.png" alt="slaid3-1">
+                                            <p class="slaid-1__text">Интегрированный в дом</p>
+                                            <div class="form-radio">
+                                                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                                <label for="radio-1"></label>
+                                            </div>
+                                        </div>
+                                        <div class="content-slider  content-slide__3">
+                                            <img class="slide-2-img" src="./img/slaid3-2.png" alt="slaid3-2">
+                                            <p class="slaid-2__text">Пристройка к дому</p>
+                                            <div class="form-radio">
+                                                <input id="radio-2" type="radio" name="radio" value="2">
+                                                <label for="radio-2"></label>
+                                            </div>
+                                        </div>
+                                        <div class="content-slider  content-slide__3">
+                                            <img class="slide-3-img" src="./img/slaid3-3.png" alt="slaid3-3">
+                                            <p class="slaid-3__text">Отдельно стоящее сооружение</p>
+                                            <div class="form-radio">
+                                                <input id="radio-3" type="radio" name="radio" value="3">
+                                                <label for="radio-3"></label>
+                                            </div>
+                                        </div>
+                                        <div class="content-slider  content-slide__3">
+                                            <img class="slide-4-img" src="./img/slaid3-4.png" alt="slaid3-4">
+                                            <p class="slaid-4__text">Требуется консультация <br>
+                                                специалиста</p>
+                                            <div class="form-radio">
+                                                <input id="radio-4" type="radio" name="radio" value="4">
+                                                <label for="radio-4"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="itc-slider-item">
+                            <!-- Контент 4 слайда -->
+                            <p class="slaider-title slaider-title__2">Вы отвечаете на 4 вопрос из 6</p>
+                            <p class="slaider-text">Потребуется ли монтаж?</p>
+                                <div class="content-slide">
+                                    <div class="content-slide1">
+                                        <img class="slide-1-img" src="./img/slaid4-1.png" alt="slaid4-1">
+                                        <p class="slaid-1__text">Да</p>
+                                        <div class="form-radio">
+                                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                            <label for="radio-1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="content-slide2">
+                                        <img class="slide-2-img" src="./img/slaid4-2.png" alt="slaid4-2">
+                                        <p class="slaid-2__text">Нет</p>
+                                        <div class="form-radio">
+                                            <input id="radio-2" type="radio" name="radio" value="2">
+                                            <label for="radio-2"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="itc-slider-item">
+                            <!-- Контент 5 слайда -->
+                            <p class="slaider-title slaider-title__2">Вы отвечаете на 5 вопрос из 6</p>
+                            <p class="slaider-text">Срок начала выполнения заказа?</p>
+                                <div class="content-slide">
+                                    <div class="content-slide1">
+                                        <img class="slide-1-img" src="./img/slaid5-1.png" alt="slaid5-1">
+                                        <p class="slaid-1__text">В ближайшее время</p>
+                                        <div class="form-radio">
+                                            <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                            <label for="radio-1"></label>
+                                        </div>
+                                    </div>
+                                    <div class="content-slide2">
+                                        <img class="slide-2-img" src="./img/slaid5-2.png" alt="slaid5-2">
+                                        <p class="slaid-2__text">В течении месяца</p>
+                                        <div class="form-radio">
+                                            <input id="radio-2" type="radio" name="radio" value="2">
+                                            <label for="radio-2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="content-slide3">
+                                        <img class="slide-3-img" src="./img/slaid5-3.png" alt="slaid5-3">
+                                        <p class="slaid-3__text">В текущем сезоне</p>
+                                        <div class="form-radio">
+                                            <input id="radio-3" type="radio" name="radio" value="3">
+                                            <label for="radio-3"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="itc-slider-item">
+                            <!-- Контент 6 слайда -->
+                            <p class="slaider-title slaider-title__2 slaider-title__2-6">Вы отвечаете на 5 вопрос из 6</p>
+                            <p class="slaider-text__1 slaider-text__1-6">Спасибо за предоставленные ответы</p>
+                            <p class="slaider-text__2 slaider-text__2-6">Оставьте  свой номер телефона и наш менеджер <br>
+                                свяжется с   Вами, для расчета стоимости <br>
+                                и фикцации суммы  на 14 дней </p>
+                                <div class="slaider-phone">
+                                    <input class="slaider-tel" type="tel" placeholder="+7(XXX)-XXX-XXXX" id="phone" name="phone"/>
+                                    <button class="slaider-phone__btn">Отправить</button>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slaider-otvet-btn">
+                        
+                        <p class="slide-otvet"><span>Выберите вариант ответа </span> 
+                            <br> нажмите кнопку “Далее”</p>
+                        <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                        <button class="itc-slider-btn itc-slider-btn-next">Далее</button>
+                    </div>
+                    </div>
+                </div>
+            <div class="opros-main__right">
+                <div class="opros-main__container">
+                    <h3 class="opros-right__title">ПРОДОЛЖАЙТЕ ОТВЕЧАТЬ ЧТОБЫ 
+                        МЫ ПРИСТУПИЛИ К РАСЧЕТУ СТОИМОСТИ</h3>
+                    <img class="opros-right__img" src="./img/opros-right.png" alt="молодой человек">
+                    <p class="opros-right__text">Главный менеджер “АлСтрой - 
+                        Групп” лично ведет каждый проект</p>
+                    <div class="opros-right__skidka">
+                        <img class="opros-skidka__img" src="./img/list.png" alt="лист бумаги">
+                        <p class="opros-skidka__text">В конце теста получите: 
+                            расчет стоимости, которую 
+                            зафиксируем на 14 дней</p>
+                    </div>
+                    <button class="opros-right__btn">Если возникли трудности с ответом — позвоните
+                        <br><span>+7 (499) 130-25-50</span></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="./slaider/itc-slider.js" defer></script>
 </body>
 </html>

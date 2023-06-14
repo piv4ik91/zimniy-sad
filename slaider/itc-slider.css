@@ -1,0 +1,196 @@
+/**
+ * ItcSlider
+ * @version 1.0.1
+ * @author https://github.com/itchief
+ * @copyright Alexander Maltsev 2020 - 2023
+ * @license MIT (https://github.com/itchief/ui-components/blob/master/LICENSE)
+ * @tutorial https://itchief.ru/javascript/slider
+ */
+
+.itc-slider {
+  position: relative;
+  width:730px ;
+  height: 628px;
+  background-color: rgba(205, 205, 205, 0.3);
+  border-radius: 20px;
+}
+
+.itc-slider-wrapper {
+  overflow: hidden;
+}
+
+.itc-slider-items {
+  display: flex;
+  text-align: center;
+
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+.content-slide{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items:center;
+  text-align: center;
+
+  margin-top: 110px;
+}
+.content-slider{
+  margin-right: 50px;
+}
+.content-slide__3{
+  margin-top: 20px;
+}
+.slaider-title__3{
+
+}
+.itc-slider-transition-none {
+  transition: none;
+}
+
+.itc-slider-item {
+
+  flex: 0 0 100%;
+  max-width: 100%;
+  user-select: none;
+  will-change: transform;
+}
+
+/* кнопки влево и вправо */
+.itc-slider-btn {
+/* position: absolute;*/
+  bottom: 0%;
+  right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  
+  border: none;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.itc-slider-btn-hide {
+  display: none;
+}
+
+.slaider-otvet-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  position: relative;
+}
+
+
+.itc-slider-btn-next {
+  margin-top: 30px;
+  background-color: #3FAC3B;
+  width: 120px;
+  height: 41px;
+  border-radius: 50px;
+  transition: .2s;
+}
+
+.itc-slider-btn:hover{
+  background-color: #308D2C;
+}
+
+
+/* индикаторы */
+
+.slider-title{
+  margin-top: 94px;
+}
+
+.itc-slider-indicators {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  margin: 0 15%;
+  padding-left: 0;
+  list-style: none;
+}
+
+.itc-slider-indicator {
+  flex: 0 1 auto;
+  box-sizing: content-box;
+  width: 74px;
+  height: 12px;
+  border-radius: 20px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  background-color: #969696;
+  background-clip: padding-box ;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  cursor: pointer;
+}
+
+.itc-slider-indicator-active {
+  background-color: #3FAC3B
+}
+.slide-otvet{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+.slide-otvet span{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+}
+.slide-otvet::after{
+  position: absolute;
+  content: "";
+  background: url(../img/slaid-ok.png);
+  width: 20px;
+  height: 20px;
+  left: 15%;
+  bottom: 40%;
+}
+.slaider-title{
+  margin-top: 20px;
+}
+.slaider-text{
+  padding-top: 90px;
+}
+.slaider-tel{
+  width: 200px ;
+  height: 41px;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+.slaider-phone__btn{
+  background-color: #3FAC3B;
+  color:#fff;
+  width: 120px;
+  height: 41px;
+  border-radius: 50px;
+  transition: .2s;
+}
+.slaider-phone__btn:hover{
+  background-color: #308D2C;
+}
+.slaider-phone__btn:active{
+  background-color: #555555;
+  transform: translate(0, 2px);
+}     
+.slaider-title__2-6{
+  margin-top: 30px;
+  margin-bottom: 160px;
+}
+.slaider-text__1-6{
+  margin-bottom: 40px;
+}
+.slaider-text__2-6{
+  margin-bottom: 40px;
+}
